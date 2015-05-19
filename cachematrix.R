@@ -5,7 +5,6 @@
 ## if so, than the inverted matrix is in the cache will be retrieved rather.
 ## if not, than the matrix inversion is calculated.
 
-
 ## function creates a special list which provides several function for caching 
 ## the matrix.
 ## When this function is called, the matrix inverse (mInv) is set to NULL
@@ -20,7 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
              setinv = setinv,
              getinv = getinv)
 }
-
 
 ## function for calculating the inverse of a matrix.
 ## it is checked whether the matrix has allready be inverted, if, than take the 
